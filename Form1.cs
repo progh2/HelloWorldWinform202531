@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace HelloWorldWinform
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lblTitle.Text = "쾅!";
         }
     }
 }
