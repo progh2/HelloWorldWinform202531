@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace HelloWorldWinform
 {
-    public partial class FormMain : Form
+    public partial class FormAbout : Form
     {
-        public FormMain()
+        public FormAbout()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            lblTitle.Text = "쾅!";
-        }
-
-        private void exit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
