@@ -40,5 +40,10 @@ namespace HelloWorldWinform
             formAbout2.Show();
 
         }
+
+        private void ㅍToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
