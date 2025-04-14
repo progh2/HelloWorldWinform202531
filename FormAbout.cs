@@ -16,5 +16,26 @@ namespace HelloWorldWinform
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ㅊ(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("\"c:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"","https://github.com/progh2 --incognito");
+        }
+
     }
 }
